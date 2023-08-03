@@ -1,0 +1,74 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation bar */
+  .navbar {
+    background-color: #285fd8; /* Primary color */
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #fff; /* White text */
+  }
+  
+  .nav-link {
+    color: #fff; /* White text */
+  }
+  
+  /* Header section */
+  header {
+    padding: 60px 0;
+  }
+  
+  /* About section */
+  #about {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 60px 0;
+  }
+  
+  /* Projects section */
+  #projects {
+    padding: 60px 0;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+  }
+  
+  .card-img-top {
+    max-height: 200px;
+  }
+  
+  /* Contact section */
+  #contact {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 60px 0;
+  }
+  
+  .form-control {
+    margin-bottom: 15px;
+  }
+  
+  /* Footer section */
+  footer {
+    background-color: #343a40; /* Dark gray background */
+    color: #fff; /* White text */
+    padding: 20px 0;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 767px) {
+    .navbar-collapse {
+      background-color: #fff; /* White background */
+    }
+  
+    .nav-link {
+      color: #333; /* Dark text */
+    }
+  }
+  
